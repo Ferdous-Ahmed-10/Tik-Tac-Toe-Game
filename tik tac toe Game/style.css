@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #fae1dd;
+    text-align: center;
+}
+
+
+h2{
+    margin: 40px;
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+
+}
+.container{
+    height:70vh ;
+    display: flex;
+ 
+ justify-content: center;
+ align-items: center;
+}
+
+.game {
+ height: 60vmin;
+ width: 60vmin;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 2vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:3.125rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(104, 115, 122);
+    font-size: 3.125rem;
+    
+    color: #f4978e;
+    background-color: #fffcf2;
+}
+
+
+.reset-btn {
+    padding: 1rem;
+    font-size: 30px;
+    
+    background-color: #f4978e;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    box-shadow: 0 0 1rem rgb(171, 174, 177);
+        
+      
+}
+
+.msg-container {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: auto;
+ font-size: 50px;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.newGame-btn {
+    padding: 1rem;
+    font-size: 30px;
+    
+    background-color: #fd6d65;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    box-shadow: 0 0 1rem rgb(171, 174, 177);}
+
+    .hide{
+        display: none;
+    }
